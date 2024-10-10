@@ -4,8 +4,8 @@
     <Drawer />
   </div>
   <main class="mx-auto max-w-4xl space-y-6 px-4 mb-20">    
-    <div class="text-xl font-bold">
-      Pages
+    <div class="text-7xl font-bold road-rage-regular">
+      My world
     </div>
     <!-- Responsive Masonry Layout -->
     <div class="masonry">
@@ -25,7 +25,7 @@
           </div>
           <NuxtLink :to="post._path" class="block">
           <div class="masonry-item-text p-4">
-            <h2 class="text-xl font-semibold mb-2">{{ post.title }}</h2>
+            <h2 class="text-3xl font-bold road-rage-regular">{{ post.title }}</h2>
             <!-- Limiting the height of the description and making it responsive -->
             <p v-if="post.description" class="text-gray-600 line-clamp-3">{{ post.description }}</p>
             <ClientOnly >

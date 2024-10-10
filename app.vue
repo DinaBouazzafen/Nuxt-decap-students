@@ -8,9 +8,9 @@
 
 <script setup>
 useHead({
-  title: 'Bureaupixel Example Decap & Nuxt',
+  title: 'Buckhain',
   meta: [
-    { name: 'description', content: 'Example for students' }
+    { name: 'description', content: 'Portfolio' }
   ],
   htmlAttrs: {
     lang: 'en'

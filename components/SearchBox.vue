@@ -3,7 +3,7 @@
 
       <div class="search-container pb-5">
           <input v-model="search" placeholder="Search...">
-          <p class="text-xs">Enter a search term in the field above</p>
+          <p class="text-xs">Need to find anything about me?</p>
       </div>
       <ul>
           <li v-for="item in results" :key="item.title">

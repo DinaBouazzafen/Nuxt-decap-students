@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@element-plus/nuxt',
     '@nuxt/image',
+    '@tresjs/nuxt'
   ],
 
   content: {

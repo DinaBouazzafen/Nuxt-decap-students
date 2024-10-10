@@ -5,7 +5,7 @@
   </div>
   <main class="mx-auto max-w-4xl space-y-6 px-4 mb-20 mt-10">
     <div class="text-xl font-bold">
-      Blog
+      Thoughts and feels
     </div>
     <!-- Responsive Masonry Layout -->
     <div class="masonry">

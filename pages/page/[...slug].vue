@@ -10,13 +10,13 @@
             <path fill="currentColor" d="m6.921 12.5l5.793 5.792L12 19l-7-7l7-7l.714.708L6.92 11.5H19v1z"></path>
           </svg>
         </span>  
-        <span class="text-xs">Back to pages overview</span>
+        <span class="text-xs">My world</span>
       </NuxtLink>
     </div>
 
     <ContentSlot >
-      <h1 class="text-4xl font-bold">{{ post.title }}</h1>
-      <p class="text-xl opacity-80" >{{ post.description }}</p>
+      <h1 class="text-5xl font-bold road-rage-regular">{{ post.title }}</h1>
+      <p class="text-xl opacity-90 roboto-medium-italic" >{{ post.description }}</p>
     </ContentSlot>  
 
     <ContentDoc v-slot="{ doc }">
